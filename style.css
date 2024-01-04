@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 
 #send-feedback{
     background-color: #0d6efd ;
@@ -23,8 +27,26 @@
     font-size: 60px;
 }
 
+.promo-content{
+    align-items: center;
+}
 
 
+.promo{
+    padding: 50px 50px;
+}
+
+.promo-comment{
+    text-align: start;  
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.promo-img{
+    border-radius: 50%;
+    max-height: 37rem;
+    vertical-align: middle;
+}
 
 
 .cta{
@@ -134,6 +156,8 @@ footer{
     .cta-content{
         font-size: 30px;
     }
+    .promo-img{
+        
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -146,7 +170,8 @@ footer{
     .cta-content{
         font-size: 70px;
     }
-}
+    
+   
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
