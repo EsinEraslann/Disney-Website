@@ -53,6 +53,10 @@ article .row{
     font-size: 60px;
 }
 
+aside{
+    padding: 85px 0;
+}
+
 
 .body{
     display: flex;
@@ -187,24 +191,36 @@ footer{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .cta-content{
         font-size: 80px;
     }
-        
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
     .logo{
         display: flex;
         flex-direction: column;
         align-items: center; 
     }
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
     
     }
 
@@ -213,6 +229,9 @@ footer{
     .cta-content{
         
     }
+
+    
+    
 }
 
 @media only screen and (min-width: 1400px) {
