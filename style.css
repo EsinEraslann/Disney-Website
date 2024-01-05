@@ -16,8 +16,34 @@
 
 
 .navbar-nav{
-    display: grid;
     column-gap: 30px;
+}
+
+article{
+    padding: 100px 0;
+}
+
+.main{
+    align-items: center;
+}
+
+.showcase{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.tel{
+     display: flex;
+     justify-content: center;
+}
+
+article .row{
+    
+}
+
+.phone-img{
+    /*margin-left: 100px;*/
+    width: 16rem;
 }
 
 .comment{
@@ -26,6 +52,19 @@
     text-align: center;
     font-size: 60px;
 }
+
+
+.body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.icon{
+    font-size: 50px;
+}
+
+
 
 .promo-content{
     align-items: center;
@@ -71,7 +110,7 @@
     position: relative;
     z-index: 1;
     color: white;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: lighter;
     line-height: 80px;
 }
@@ -154,34 +193,30 @@ footer{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .cta-content{
-        font-size: 30px;
+        font-size: 80px;
     }
-    .promo-img{
         
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     .logo{
         display: flex;
         flex-direction: column;
         align-items: center; 
     }
-    .cta-content{
-        font-size: 70px;
-    }
     
-   
+    }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .cta-content{
-        font-size: 80px;
+        
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .cta-content{
-        font-size: 80px;
+        
     }
 }
