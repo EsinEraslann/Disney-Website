@@ -4,7 +4,7 @@
 
 
 #send-feedback{
-    background-color: #0d6efd ;
+    background-color: #1656b5 ;
     color: white;
     border-radius: 20px;
 
@@ -14,8 +14,21 @@
     padding-right: 10px;
 }
 
-.navbar-brand{
-    
+.modal-header{
+    background: -webkit-linear-gradient(#040c40, #43a4dc);
+    color: #fff;
+}
+
+#modal-submit{
+    background-color: #040c40;
+    border-radius: 50px;
+    width: 90%;
+    justify-content: center;
+}
+
+#submitButton{
+    color: white;
+    font-size: 20px;
 }
 
 .disney{
@@ -26,9 +39,6 @@
     column-gap: 30px;
 }
 
-article{
-    padding-top: ;
-}
 
 .main{
     align-items: center;
@@ -44,10 +54,6 @@ article{
      justify-content: center;
 }
 
-article .row{
-    
-}
-
 .phone-img-1{
     /*margin-left: 100px;*/
     width: 30rem;
@@ -55,7 +61,7 @@ article .row{
 
 .comment{
     padding: 4rem 0;
-    background-color: #0265c5 ;
+    background: -webkit-linear-gradient(#040c40, #43a4dc);
     color: white;
     text-align: center;
     font-size: 60px;
@@ -88,7 +94,7 @@ aside{
 
 .icon{
     font-size: 50px;
-    background: -webkit-linear-gradient(#2937f0, #43a4dc);
+    background: -webkit-linear-gradient(#040c40, #dc43ca);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -214,10 +220,13 @@ footer{
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
+@media only screen and (max-width: 600px) {
+    
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -231,6 +240,10 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+    
+    article{
+        padding-top: 100px;
     }
 
     .logo{
