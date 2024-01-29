@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 #send-feedback {
     background-color: #1656b5;
     color: white;
@@ -51,6 +48,13 @@
     font-size: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+    .main{
+        text-align: center;
+    }
+}
+
+
 .tel {
     display: flex;
     justify-content: center;
@@ -90,6 +94,32 @@
     position: absolute;
     top: 500px;
     left: 850px;
+}
+
+@media only screen and (max-width: 600px) {
+    .circle {
+        display: none;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .dot-1 {
+        display: none;
+    }
+
+    .dot-2 {
+        display: none;
+    }
+
+    .circle-1 {
+        display: none;
+    }
+
+    .dot-3 {
+        display: none;
+    }
 }
 
 .comment {
@@ -203,8 +233,7 @@
 
 
 .download {
-    background-color: #1656b5;
-    color: white;
+    background-color: #eceef1;
     text-align: center;
     padding: 5rem 0;
 }
